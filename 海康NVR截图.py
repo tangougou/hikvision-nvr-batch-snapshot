@@ -6,7 +6,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 
 # ================= 配置区域 =================
-NVR_LIST_FILE = "nvr_list.txt"  # 每行一个 NVR IP
+NVR_LIST_FILE = "HikvisionNVR.txt"  # 每行一个 NVR IP
 USERNAME = "admin"
 PASSWORD = "NVR密码"
 SAVE_ROOT = "nvr_snapshots"
@@ -119,4 +119,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
